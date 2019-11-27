@@ -1,0 +1,106 @@
+ship "Tazer Face"
+	sprite "ship/tazership"
+	thumbnail "ship/tazership-img"
+	attributes
+		category "Heavy Warship"
+		cost 10900000
+		mass 610
+		bunks 225
+		drag 6.7
+		"engine capacity" 275
+		"fuel capacity" 300
+		"gun ports" 1
+		"heat dissipation" 0.7
+		hull 3700
+		"outfit space" 600
+		"required crew" 50
+		shields 12800
+		"tazer ports" -1
+		"weapon capacity" 175
+	outfits
+		"A370 Atomic Thruster"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"A525 Atomic Steering"
+		"Ionic Afterburner" 2
+		"Armageddon Core"
+		"Scram Drive"
+		"LP576a Battery Pack"
+		"Arc Tazer"
+		
+	engine -17.5 137
+	engine 17.5 137
+	gun 0 -101 "Arc Tazer"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description "Features a single powerful electrical arc weapon useful at short range. One of the most unique, if impractical, ships the galaxy has ever seen."
+
+ship "Captured Archon"
+	sprite "ship/archborg"
+	thumbnail "ship/archborg-img"
+	attributes
+		category "Heavy Warship"
+		"cost" 1000000000
+		"shields" 4000000
+		"hull" 1000000
+		"required crew" 43
+		"bunks" 75
+		"mass" 1000
+		"drag" 27
+		"heat dissipation" 40
+		"fuel capacity" 800
+		"cargo space" 0
+		"outfit space" 700
+		"weapon capacity" 500
+		"engine capacity" 200
+		"energy capacity" 10000
+		"energy generation" 500
+		"heat generation" 17
+		"shield generation" 100
+		"shield energy" 100
+		"hull repair rate" 100
+		"hull energy" 100
+		"ramscoop" 100
+		weapon
+			"blast radius" 200
+			"shield damage" 20000
+			"hull damage" 10000
+			"hit force" 30000
+	outfits
+		"Drak Anti-Missile Field" 2
+		"Drak Draining Field"
+		"Drak Turret" 3
+		"Dual Sunbeam Turret" 2
+		"Flamethrower"
+		Mouthparts? 2
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+		"Jump Drive"
+
+	engine 24.5 71
+	engine -24.5 71
+	gun 8.5 -115 Mouthparts?
+	gun -8.5 -115 Mouthparts?
+	gun -34.5 -37.5 Flamethrower
+	turret -37 -13 "Dual Sunbeam Turret"
+	turret 37 -13 "Dual Sunbeam Turret"
+	turret 0 -10 "Drak Anti-Missile Field"
+	turret 0 -10 "Drak Anti-Missile Field"
+	turret -40 -13 "Drak Turret"
+	turret 40 -13 "Drak Turret"
+	turret 0 81 "Drak Turret"
+	explode "nuke explosion" 3
+	"final explode" "final explosion large"
+	description "Some ask why, others realize that a captured cyborg Archon is so damn cool that no reason is needed."
+
+
+

@@ -1,0 +1,24 @@
+outfit "Arc Tazer"
+	category "Guns"
+	cost 29000
+	thumbnail "outfit/laser"
+	"mass" 8
+	"outfit space" -10
+	"weapon capacity" -170
+	"gun ports" -1
+	"tazer ports" 1
+	weapon
+		sprite "projectile/tazer"
+			"frame rate" 10
+		sound "zap"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .5
+		"velocity" 25
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 75
+		"firing heat" 1.4
+		"shield damage" 0
+		"hull damage" 57
+		"piercing" 1
+	description "Uses an electrical arc to damage enemy vessels. Only effective at very short range."
