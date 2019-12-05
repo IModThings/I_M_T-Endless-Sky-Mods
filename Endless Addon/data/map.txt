@@ -1,0 +1,5 @@
+planet "Syndicate Research Station"
+    landscape land/staion5
+    attributes core station research
+    description "Something strange is going on here..."
+    spaceport "potato"

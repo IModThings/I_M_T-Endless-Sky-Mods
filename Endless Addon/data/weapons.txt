@@ -22,3 +22,19 @@ outfit "Arc Tazer"
 		"hull damage" 57
 		"piercing" 1
 	description "Uses an electrical arc to damage enemy vessels. Only effective at very short range."
+
+outfit Ramhead
+	category Guns
+	gun ports -1
+	weapon
+		sound null
+		"hit effect" "large explosion"
+		inaccuracy 0
+		velocity 0
+		lifetime 1
+		reload 0
+		"firing energy" 0
+		"firing heat" 0
+		"shield damage" 0
+		"hull damage" 1000
+		"piercing" 1

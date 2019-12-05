@@ -1,0 +1,29 @@
+outfit "Tracer Engine"
+	category "Engines"
+	"cost" 340000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 0
+	"outfit space" -30
+	"engine capacity" -30
+	"afterburner thrust" 75
+	"afterburner energy" 5
+	"afterburner heat" 0
+	"afterburner effect" "tracer"
+	"reverse thrust" 75
+	"reverse thrusting energy" 5
+	"reverse thrusting heat" 0
+	"turn" 1500
+	"turning energy" 5
+	"turning heat" 0
+
+
+effect "tracer"
+	sprite "effect/Tracer"
+		"no repeat"
+		"frame rate" 200
+	sound "ionic afterburner"
+	"lifetime" 150
+	"random angle" 2
+	"random spin" 2
+	"random velocity" 1
+	"velocity scale" 0

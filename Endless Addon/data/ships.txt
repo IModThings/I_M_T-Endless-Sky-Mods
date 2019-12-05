@@ -28,7 +28,7 @@ ship "Tazer Face"
 		"Scram Drive"
 		"LP576a Battery Pack"
 		"Arc Tazer"
-		
+
 	engine -17.5 137
 	engine 17.5 137
 	gun 0 -101 "Arc Tazer"
@@ -57,9 +57,9 @@ ship "Captured Archon"
 		"heat dissipation" 40
 		"fuel capacity" 800
 		"cargo space" 0
-		"outfit space" 700
-		"weapon capacity" 500
-		"engine capacity" 200
+		"outfit space" 1500
+		"weapon capacity" 1000
+		"engine capacity" 500
 		"energy capacity" 10000
 		"energy generation" 500
 		"heat generation" 17
@@ -74,33 +74,69 @@ ship "Captured Archon"
 			"hull damage" 10000
 			"hit force" 30000
 	outfits
-		"Drak Anti-Missile Field" 2
-		"Drak Draining Field"
-		"Drak Turret" 3
-		"Dual Sunbeam Turret" 2
-		"Flamethrower"
-		Mouthparts? 2
-		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
-		"Hyperdrive"
+		Flamethrower
 		"Jump Drive"
+		"A860 Atomic Thruster" 2
+		"A865 Atomic Steering" 2
+		"Ionic Afterburner" 2
+		"Scram Drive"
+		"Cargo Scanner" 3
+		"Outfit Scanner" 5
+		"Korath Disruptor" 2
+		"Tactical Scanner" 5
+		Mouthparts? 2
+		"Korath Warder" 2
+		"Korath Banisher"
+		"Korath Repeater Turret" 2
+		"Nuclear Missile" 2
 
 	engine 24.5 71
 	engine -24.5 71
 	gun 8.5 -115 Mouthparts?
 	gun -8.5 -115 Mouthparts?
 	gun -34.5 -37.5 Flamethrower
-	turret -37 -13 "Dual Sunbeam Turret"
-	turret 37 -13 "Dual Sunbeam Turret"
-	turret 0 -10 "Drak Anti-Missile Field"
-	turret 0 -10 "Drak Anti-Missile Field"
-	turret -40 -13 "Drak Turret"
-	turret 40 -13 "Drak Turret"
-	turret 0 81 "Drak Turret"
+	gun -34.5 -37.5 "Nuclear Missile"
+	gun -34.5 -37.5 "Nuclear Missile"
+	turret -37 -13 "Korath Repeater Turret"
+	turret 37 -13 "Korath Repeater Turret"
+	turret 0 -10 "Korath Warder"
+	turret 0 -10 "Korath Warder"
+	turret -40 -13 "Korath Disruptor"
+	turret 40 -13 "Korath Disruptor"
+	turret 0 81 "Korath Banisher"
 	explode "nuke explosion" 3
 	"final explode" "final explosion large"
-	description "Some ask why, others realize that a captured cyborg Archon is so damn cool that no reason is needed."
+	description "Some ask why, others realize that a cyborg Archon is so damn cool that no reason is needed."
 
-
-
+ship "Impaler"
+	sprite "ship/dart"
+	thumbnail "ship/dart-img"
+	attributes
+		category "Drone"
+		"cost" 1000000000
+		"shields" 0
+		"hull" 8000
+		"automaton" 1
+		"mass" 200
+		"drag" 2.5
+		"heat dissipation" .7
+		"outfit space" 0
+		"weapon capacity" 0
+		"engine capacity" 0
+		"energy capacity" 100
+		"energy generation" 20
+		"hull repair rate" 10
+		"hull energy" 10
+	weapon
+		"blast radius" 10
+		"shield damage" 20000
+		"hull damage" 10000
+		"hit force" 30000
+	outfits
+		"Tracer Engine" 3
+		Ramhead
+	engine 0 91.25
+	gun 0 -98.25 Ramhead
+	explode "small explosion" 3
+	"final explode" "final explosion large"
+	description "Rams ships instantly destroying small ships and severely damaging large ships. Ignores shields."
