@@ -13,3 +13,7 @@ An Archon captured by the syndicate and fitten with control devices and modified
 
 This ship, originally created to explot a vulnurability in a malfunctioning Korath ship, is fitted with a powerful electrical arc weapon which bypasses shields entirely and does massive amounts of damage.
 
+
+![Impaler](https://github.com/IModThings/I_M_T-Endless-Sky-Mods/blob/master/Endless%20Addon/images/ship/dart-img@2x.png?raw=true)
+
+Inspired by the yaka arrow from guardians of the galaxy, this drone ship is capable of instantly destroying nearly every ship in the game. It also has a tracer effect similar to the one in the movies.
