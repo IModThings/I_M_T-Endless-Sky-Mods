@@ -1,7 +1,7 @@
 outfit "Arc Tazer"
 	category "Guns"
 	cost 29000
-	thumbnail "outfit/laser"
+	thumbnail "outfit/electricarc"
 	"mass" 8
 	"outfit space" -10
 	"weapon capacity" -170
@@ -36,5 +36,64 @@ outfit Ramhead
 		"firing energy" 0
 		"firing heat" 0
 		"shield damage" 0
-		"hull damage" 1000
+		"hull damage" 10000
 		"piercing" 1
+
+outfit "Plasma Vent"
+	category Guns
+	cost 190000
+	thumbnail "outfit/flamethrower"
+	"mass" 40
+	"outfit space" -32
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "effect/sun/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		"submunition" "sun flare"
+		"inaccuracy" 6
+		"velocity" 9
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 100
+		"firing heat" -20
+	description "The Plasma Vent directs a stream solar plasma towards your adversaries."
+
+outfit "sun flare"
+	weapon
+		sprite "projectile/plasmaburst"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 6
+		"lifetime" 30
+		"shield damage" 227
+		"hull damage" 431
+		"heat damage" 354
+
+effect "flamethrower die"
+	sprite "effect/sun/small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .4
+
+effect "flamethrower hit"
+	sprite "effect/sun/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4

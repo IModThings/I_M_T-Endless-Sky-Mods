@@ -27,3 +27,18 @@ effect "tracer"
 	"random spin" 2
 	"random velocity" 1
 	"velocity scale" 0
+
+outfit "Coronal Discharge Thruster"
+	category "Engines"
+	"cost" 2240000
+	thumbnail "outfit/unknown"
+	"mass" 127
+	"outfit space" -120
+	"engine capacity" -165
+	"thrust" 300
+	"thrusting energy" 340
+	"thrusting heat" 29.1
+	"flare sprite" "effect/sun/sun"
+		"frame rate" 30
+	"flare sound" "atomic huge"
+	description "More like an exhaust port than an engine, this thruster works by directing the energy of a star to provide thrust. While you could theoretically use traditional energy sources instead of the power of a star, no generator exists that would be capable of meeting the energy requirements."
