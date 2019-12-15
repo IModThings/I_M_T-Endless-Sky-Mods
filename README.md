@@ -17,3 +17,8 @@ This ship, originally created to explot a vulnurability in a malfunctioning Kora
 ![Impaler](https://github.com/IModThings/I_M_T-Endless-Sky-Mods/blob/master/Endless%20Addon/images/ship/dart-img.png?raw=true)
 
 Inspired by the yaka arrow from guardians of the galaxy, this drone ship is capable of instantly destroying nearly every ship in the game. It also has a tracer effect similar to the one in the movies.
+
+
+![Sol Invictus](https://github.com/IModThings/I_M_T-Endless-Sky-Mods/blob/master/Endless%20Addon/images/ship/Sol%20Invictus-img.png?raw=true)
+
+Sol Invictus, a ship with a blue dwarf at it heart providing nearly unlimited energy along with thrust and a flame thrower like weapon.
